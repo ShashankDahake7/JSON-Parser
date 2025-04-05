@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/main.tsx","./src/vite-env.d.ts","./src/components/feature.tsx","./src/components/footer.tsx","./src/components/header.tsx","./src/components/jsontree.tsx","./src/pages/homepage.tsx","./src/pages/uploadjson.tsx","./src/pages/validatejson.tsx","./src/utils/jsonparser.ts","./src/utils/jsonutils.ts"],"version":"5.7.3"}
