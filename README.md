@@ -39,6 +39,8 @@ cd json-parser
 # Install dependencies
 npm install
 ```
+
+```bash
 # Start development server
 npm run dev
 ```
