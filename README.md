@@ -25,22 +25,22 @@ A lightweight web-based JSON parser and validator built using **React**, **Vite*
 
 ## 📦 Installation
 
-# Clone the repository
+### Clone the repository
 ```bash
 git clone https://github.com/ShashankDahake7/json-parser.git
 ```
 
-# Current Directory
+### Current Directory
 ```bash
 cd json-parser
 ```
 
-# Install dependencies
+### Install dependencies
 ```bash
 npm install
 ```
 
-# Start development server
+### Start development server
 ```bash
 npm run dev
 ```
