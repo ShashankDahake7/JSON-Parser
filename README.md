@@ -9,7 +9,11 @@ A lightweight web-based JSON parser and validator built using **React**, **Vite*
 - ✅ Validate JSON syntax and structure  
 - ✅ Handle nested objects and arrays  
 - ✅ Display error messages for invalid JSON  
-- ✅ Modular and component-driven architecture  
+- ✅ Modular and component-driven architecture
+
+## 🚀 Demo
+
+> https://json-parser-x2s3.onrender.com
 
 ## 🛠️ Tech Stack
 
@@ -24,11 +28,17 @@ A lightweight web-based JSON parser and validator built using **React**, **Vite*
 ```bash
 # Clone the repository
 git clone https://github.com/ShashankDahake7/json-parser.git
-cd json-parser
+```
 
+```bash
+# Current Directory
+cd json-parser
+```
+
+```bash
 # Install dependencies
 npm install
-
+```
 # Start development server
 npm run dev
 ```
