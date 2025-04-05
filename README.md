@@ -11,11 +11,6 @@ A lightweight web-based JSON parser and validator built using **React**, **Vite*
 - ✅ Display error messages for invalid JSON  
 - ✅ Modular and component-driven architecture  
 
-## 🚀 Demo
-
-> 
-
-
 ## 🛠️ Tech Stack
 
 - [React](https://reactjs.org/)
