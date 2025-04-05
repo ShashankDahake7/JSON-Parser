@@ -1,4 +1,3 @@
-// components/Header.tsx
 import React from 'react';
 import { Link } from 'react-router-dom';
 
@@ -16,21 +15,16 @@ const Header: React.FC = () => {
 
                     <nav>
                         <ul className="flex space-x-6">
-                            <li>
-                                <Link to="/" className="hover:text-blue-200 transition duration-150">
-                                    Home
-                                </Link>
-                            </li>
-                            <li>
-                                <Link to="/validate" className="hover:text-blue-200 transition duration-150">
-                                    Validate JSON
-                                </Link>
-                            </li>
-                            <li>
-                                <Link to="/upload" className="hover:text-blue-200 transition duration-150">
-                                    Upload JSON
-                                </Link>
-                            </li>
+                            <Link to="/" className="bg-transparent text-white font-semibold py-2 px-4">
+                                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 inline-block mr-1" viewBox="0 0 20 20" fill="currentColor" />
+                                Home
+                            </Link>
+                            <Link to="/signup" className="bg-white text-indigo-700 hover:bg-indigo-100 font-semibold py-2 px-4 rounded transition duration-150">
+                                Signup
+                            </Link>
+                            <Link to="/signin" className="bg-transparent hover:bg-indigo-800 text-white border-2 border-white font-semibold py-2 px-4 rounded transition duration-150">
+                                Signin
+                            </Link>
                         </ul>
                     </nav>
                 </div>

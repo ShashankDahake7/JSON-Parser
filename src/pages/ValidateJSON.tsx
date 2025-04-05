@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import JSONTree from '../components/JSONTree';
+import { parseJSON, formatJSON } from '../utils/jsonParser';
 
 const ValidateJSON: React.FC = () => {
     const [jsonInput, setJsonInput] = useState<string>('');
@@ -16,7 +17,7 @@ const ValidateJSON: React.FC = () => {
                 return;
             }
 
-            const parsed = JSON.parse(jsonInput);
+            const parsed = parseJSON(jsonInput);
             setParsedData(parsed);
             setError(null);
             setIsValid(true);
@@ -36,13 +37,7 @@ const ValidateJSON: React.FC = () => {
 
     const handleFormat = () => {
         if (!jsonInput.trim()) return;
-
-        try {
-            const parsed = JSON.parse(jsonInput);
-            setJsonInput(JSON.stringify(parsed, null, 2));
-        } catch (err) {
-            // If not valid JSON, don't format
-        }
+        setJsonInput(formatJSON(jsonInput));
     };
 
     return (
@@ -100,7 +95,7 @@ const ValidateJSON: React.FC = () => {
                             </svg>
                             <div>
                                 <p className="font-medium">Invalid JSON</p>
-                                <p className="text-sm mt-1">{error}</p>
+                                <pre className="text-sm mt-1 whitespace-pre-wrap">{error}</pre>
                             </div>
                         </div>
                     </div>

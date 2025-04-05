@@ -1,4 +1,3 @@
-// components/JSONTree.tsx
 import React, { useState } from 'react';
 
 interface JSONTreeProps {

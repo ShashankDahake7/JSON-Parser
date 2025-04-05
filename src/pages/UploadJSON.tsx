@@ -1,5 +1,6 @@
 import React, { useState, useRef } from 'react';
 import JSONTree from '../components/JSONTree';
+import { parseJSON } from '../utils/jsonParser';
 
 const UploadJSON: React.FC = () => {
     const [parsedData, setParsedData] = useState<any>(null);
@@ -18,7 +19,7 @@ const UploadJSON: React.FC = () => {
         reader.onload = (event) => {
             try {
                 const content = event.target?.result as string;
-                const parsed = JSON.parse(content);
+                const parsed = parseJSON(content);
                 setParsedData(parsed);
                 setError(null);
                 setIsValid(true);
@@ -95,7 +96,7 @@ const UploadJSON: React.FC = () => {
                             </svg>
                             <div>
                                 <p className="font-medium">Invalid JSON file: {fileName}</p>
-                                <p className="text-sm mt-1">{error}</p>
+                                <pre className="text-sm mt-1 whitespace-pre-wrap">{error}</pre>
                             </div>
                         </div>
                     </div>
