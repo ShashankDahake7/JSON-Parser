@@ -11,6 +11,9 @@ A lightweight web-based JSON parser and validator built using **React**, **Vite*
 - ✅ Display error messages for invalid JSON  
 - ✅ Modular and component-driven architecture
 
+### 📽️ Watch our video to understand how to use the features: 
+[![Watch the video](https://i9.ytimg.com/vi/zkJaD-EyVs4/mqdefault.jpg?sqp=CKDWyL8G-oaymwEmCMACELQB8quKqQMa8AEB-AH-CYACsAWKAgwIABABGC0gICh_MA8=&rs=AOn4CLAljPyTuGJtxBxRKlrnfGwkz6XpsQ)](https://youtu.be/zkJaD-EyVs4)
+
 ## 🚀 Demo
 
 > https://json-parser-x2s3.onrender.com
@@ -44,6 +47,3 @@ npm install
 ```bash
 npm run dev
 ```
-
-### Watch our video to understand how to use the features: 
-[![Watch the video](https://i9.ytimg.com/vi/zkJaD-EyVs4/mqdefault.jpg?sqp=CKDWyL8G-oaymwEmCMACELQB8quKqQMa8AEB-AH-CYACsAWKAgwIABABGC0gICh_MA8=&rs=AOn4CLAljPyTuGJtxBxRKlrnfGwkz6XpsQ)](https://youtu.be/zkJaD-EyVs4)
