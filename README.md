@@ -15,6 +15,10 @@ A lightweight web-based JSON parser and validator built using **React**, **Vite*
 
 > https://json-parser-x2s3.onrender.com
 
+### 📽️ Watch the demo video:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zkJaD-EyVs4" frameborder="0" allowfullscreen></iframe>
+
 ## 🛠️ Tech Stack
 
 - [React](https://reactjs.org/)
