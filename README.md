@@ -44,3 +44,6 @@ npm install
 ```bash
 npm run dev
 ```
+
+### Watch our video to understand how to use the features: 
+[![Watch the video](https://i9.ytimg.com/vi/zkJaD-EyVs4/mqdefault.jpg?sqp=CKDWyL8G-oaymwEmCMACELQB8quKqQMa8AEB-AH-CYACsAWKAgwIABABGC0gICh_MA8=&rs=AOn4CLAljPyTuGJtxBxRKlrnfGwkz6XpsQ)](https://youtu.be/zkJaD-EyVs4)
